@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963186B0196E77BA001FA9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963186AF196E77BA001FA9DA /* Foundation.framework */; };
+		963186B2196E77BA001FA9DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963186B1196E77BA001FA9DA /* CoreGraphics.framework */; };
+		963186B4196E77BA001FA9DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963186B3196E77BA001FA9DA /* UIKit.framework */; };
+		963186BA196E77BA001FA9DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 963186B8196E77BA001FA9DA /* InfoPlist.strings */; };
+		963186BC196E77BA001FA9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963186BB196E77BA001FA9DA /* main.m */; };
+		963186C0196E77BA001FA9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963186BF196E77BA001FA9DA /* AppDelegate.m */; };
+		963186C3196E77BA001FA9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963186C1196E77BA001FA9DA /* Main.storyboard */; };
+		963186C6196E77BA001FA9DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963186C5196E77BA001FA9DA /* ViewController.m */; };
+		963186C8196E77BA001FA9DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963186C7196E77BA001FA9DA /* Images.xcassets */; };
+		963186ED196E8720001FA9DA /* libAdstirWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 963186EA196E8720001FA9DA /* libAdstirWebView.a */; };
+		964680E319ADD369008C287F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964680E219ADD369008C287F /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		963186AC196E77BA001FA9DA /* AdstirNativeAdSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdstirNativeAdSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963186AF196E77BA001FA9DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		963186B1196E77BA001FA9DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		963186B3196E77BA001FA9DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		963186B7196E77BA001FA9DA /* AdstirNativeAdSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdstirNativeAdSample-Info.plist"; sourceTree = "<group>"; };
+		963186B9196E77BA001FA9DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		963186BB196E77BA001FA9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		963186BD196E77BA001FA9DA /* AdstirNativeAdSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdstirNativeAdSample-Prefix.pch"; sourceTree = "<group>"; };
+		963186BE196E77BA001FA9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		963186BF196E77BA001FA9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		963186C2196E77BA001FA9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963186C4196E77BA001FA9DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		963186C5196E77BA001FA9DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		963186C7196E77BA001FA9DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		963186E8196E8720001FA9DA /* AdstirNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdstirNativeAd.h; sourceTree = "<group>"; };
+		963186EA196E8720001FA9DA /* libAdstirWebView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdstirWebView.a; sourceTree = "<group>"; };
+		964680E219ADD369008C287F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963186A9196E77BA001FA9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964680E319ADD369008C287F /* AdSupport.framework in Frameworks */,
+				963186B2196E77BA001FA9DA /* CoreGraphics.framework in Frameworks */,
+				963186B4196E77BA001FA9DA /* UIKit.framework in Frameworks */,
+				963186ED196E8720001FA9DA /* libAdstirWebView.a in Frameworks */,
+				963186B0196E77BA001FA9DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963186A3196E77BA001FA9DA = {
+			isa = PBXGroup;
+			children = (
+				963186E4196E8720001FA9DA /* AdstirSDK */,
+				963186B5196E77BA001FA9DA /* AdstirNativeAdSample */,
+				963186AE196E77BA001FA9DA /* Frameworks */,
+				963186AD196E77BA001FA9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963186AD196E77BA001FA9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963186AC196E77BA001FA9DA /* AdstirNativeAdSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963186AE196E77BA001FA9DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964680E219ADD369008C287F /* AdSupport.framework */,
+				963186AF196E77BA001FA9DA /* Foundation.framework */,
+				963186B1196E77BA001FA9DA /* CoreGraphics.framework */,
+				963186B3196E77BA001FA9DA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		963186B5196E77BA001FA9DA /* AdstirNativeAdSample */ = {
+			isa = PBXGroup;
+			children = (
+				963186BE196E77BA001FA9DA /* AppDelegate.h */,
+				963186BF196E77BA001FA9DA /* AppDelegate.m */,
+				963186C1196E77BA001FA9DA /* Main.storyboard */,
+				963186C4196E77BA001FA9DA /* ViewController.h */,
+				963186C5196E77BA001FA9DA /* ViewController.m */,
+				963186C7196E77BA001FA9DA /* Images.xcassets */,
+				963186B6196E77BA001FA9DA /* Supporting Files */,
+			);
+			path = AdstirNativeAdSample;
+			sourceTree = "<group>";
+		};
+		963186B6196E77BA001FA9DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				963186B7196E77BA001FA9DA /* AdstirNativeAdSample-Info.plist */,
+				963186B8196E77BA001FA9DA /* InfoPlist.strings */,
+				963186BB196E77BA001FA9DA /* main.m */,
+				963186BD196E77BA001FA9DA /* AdstirNativeAdSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		963186E4196E8720001FA9DA /* AdstirSDK */ = {
+			isa = PBXGroup;
+			children = (
+				963186E8196E8720001FA9DA /* AdstirNativeAd.h */,
+				963186EA196E8720001FA9DA /* libAdstirWebView.a */,
+			);
+			path = AdstirSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963186AB196E77BA001FA9DA /* AdstirNativeAdSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963186DE196E77BA001FA9DA /* Build configuration list for PBXNativeTarget "AdstirNativeAdSample" */;
+			buildPhases = (
+				963186A8196E77BA001FA9DA /* Sources */,
+				963186A9196E77BA001FA9DA /* Frameworks */,
+				963186AA196E77BA001FA9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdstirNativeAdSample;
+			productName = AdstirNativeAdSample;
+			productReference = 963186AC196E77BA001FA9DA /* AdstirNativeAdSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963186A4196E77BA001FA9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = UNITED;
+			};
+			buildConfigurationList = 963186A7196E77BA001FA9DA /* Build configuration list for PBXProject "AdstirNativeAdSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963186A3196E77BA001FA9DA;
+			productRefGroup = 963186AD196E77BA001FA9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963186AB196E77BA001FA9DA /* AdstirNativeAdSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963186AA196E77BA001FA9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963186C8196E77BA001FA9DA /* Images.xcassets in Resources */,
+				963186BA196E77BA001FA9DA /* InfoPlist.strings in Resources */,
+				963186C3196E77BA001FA9DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963186A8196E77BA001FA9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963186C6196E77BA001FA9DA /* ViewController.m in Sources */,
+				963186C0196E77BA001FA9DA /* AppDelegate.m in Sources */,
+				963186BC196E77BA001FA9DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		963186B8196E77BA001FA9DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963186B9196E77BA001FA9DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		963186C1196E77BA001FA9DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963186C2196E77BA001FA9DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963186DC196E77BA001FA9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		963186DD196E77BA001FA9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963186DF196E77BA001FA9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdstirNativeAdSample/AdstirNativeAdSample-Prefix.pch";
+				INFOPLIST_FILE = "AdstirNativeAdSample/AdstirNativeAdSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdstirSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		963186E0196E77BA001FA9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdstirNativeAdSample/AdstirNativeAdSample-Prefix.pch";
+				INFOPLIST_FILE = "AdstirNativeAdSample/AdstirNativeAdSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdstirSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963186A7196E77BA001FA9DA /* Build configuration list for PBXProject "AdstirNativeAdSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963186DC196E77BA001FA9DA /* Debug */,
+				963186DD196E77BA001FA9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963186DE196E77BA001FA9DA /* Build configuration list for PBXNativeTarget "AdstirNativeAdSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963186DF196E77BA001FA9DA /* Debug */,
+				963186E0196E77BA001FA9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963186A4196E77BA001FA9DA /* Project object */;
+}
