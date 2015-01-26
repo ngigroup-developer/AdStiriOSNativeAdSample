@@ -53,7 +53,7 @@
 		[response bindImageToImageView:self.imgView];
 	});
 	[response impression];
-	// // 広告を表示するときにimpressionを呼び出します
+	// 広告を表示するときにimpressionを呼び出します
 }
 
 - (void)adstirNativeAdDidFailToReceiveAd:(AdstirNativeAd*)nativeAd{
@@ -65,4 +65,10 @@
 	[self.nativeadResponse click];
 }
 
+- (void)dealloc {
+    // デリゲートを解放します。
+    self.nativead.delegate = nil;
+    self.nativead = nil;
+    self.nativeadResponse = nil;
+}
 @end
